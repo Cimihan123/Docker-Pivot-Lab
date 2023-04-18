@@ -1,7 +1,7 @@
 FROM phusion/baseimage:master
 
 RUN apt update -y \
-    && python3-pip \
+    && python3-pip 
 
 WORKDIR /opt
 
